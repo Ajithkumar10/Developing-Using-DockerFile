@@ -20,7 +20,7 @@ app.get('/profile-picture', function (req, res) {
   res.end(img, 'binary');
 });
 
-// use when starting application locally with node command
+//1 use when starting application locally with node command
 let mongoUrlLocal = "mongodb://admin:password@localhost:27017";
 
 // use when starting application as a separate docker container
